@@ -4,5 +4,5 @@ ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
   # code here
-  arr.sort
+  arr.sort_by
 end
