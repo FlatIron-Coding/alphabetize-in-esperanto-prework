@@ -5,6 +5,8 @@ ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 def alphabetize(arr)
   # code here
   arr.sort_by do |phrase|
-    phrase.split.map
+    phrase.split.map do |letter|
+      
+    end
   end 
 end
